@@ -6,6 +6,7 @@ pip install -r requirements.txt
 ## Run and Test
 To run the project, use the following command:
 ```bash
+env/Scripts/activate 
 uvicorn app.main:app 
 ```
 To test the project, use the following command:
